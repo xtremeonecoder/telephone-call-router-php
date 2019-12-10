@@ -64,7 +64,7 @@ I developed this project with _**PHP**_ as per given instruction manual. Some ne
 ### Programming Language: PHP
 
 ### PHP Version:
-![Java version used in the application](https://github.com/xtremeonecoder/telephone-call-router-php/blob/master/documentation/Programming-Environment.jpg)
+![PHP version used in the application](https://github.com/xtremeonecoder/telephone-call-router-php/blob/master/documentation/Programming-Environment.jpg)
 
 ### Used IDE
 I have developed, executed and tested the project using _**NetBeans IDE 8.2**_. I would recommend the same environment for testing.
