@@ -1,5 +1,14 @@
 <?php
 /**
+ * Telephone Call Router - PHP Application
+ *
+ * @category   PHP_Application
+ * @package    telephone-call-router
+ * @author     Suman Barua
+ * @developer  Suman Barua <sumanbarua576@gmail.com>
+ **/
+
+/**
  * Prepare price-list according to operators
  * @return available operators and their price lists
  */
@@ -71,7 +80,6 @@ if ( isset($_POST['phone_number']) && !empty($_POST['phone_number']) ) {
     // User given telephone number
     $phoneNumber = trim($_POST['phone_number']);
     $phoneNumber = preg_replace("/\D/", "", $phoneNumber);
-    //echo $phoneNumber;
     
     // Prepare price-list according to operators
     $operators = getTelephoneOperators();
